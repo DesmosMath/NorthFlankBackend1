@@ -1,0 +1,22 @@
+# Ignore dependencies (they are installed inside the container)
+node_modules
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore this file itself
+.dockerignore
+Dockerfile
+
+
+---
+
+### Your Next Steps
+
+1.  **Create a new GitHub repository.**
+2.  **Add these four files** (`package.json`, `index.js`, `Dockerfile`, `.dockerignore`) to that repository and push them.
+3.  **Sign up for Northflank** (using your GitHub account, no credit card needed).
+4.  Create a new service, connect it to your new GitHub repository.
+5.  When Northflank asks **how to build** your app, choose **"Dockerfile"** and point it to the `Dockerfile` in your repository.
+6.  Deploy the service! It will give you a public URL that will **not sleep**.
